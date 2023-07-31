@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactos</title>
+    <script src="https://kit.fontawesome.com/18a45a892c.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/x-icon" href="img/logo-16x16.png">
+    <link rel="stylesheet" href="contactos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Poppins:wght@400;900&family=Sacramento&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Barra de navegación -->
+    <div class="container" id="Inicio">
+        <div class="banner">
+            <div class="heading">
+                <header>
+                    <h1>JOY<span class="title-yellow"><small>TIME</small></span></h1>
+                </header>
+                <span id="Abrir" class="fa-solid fa-bars btn-menu"></span>
+                <nav id="menu">
+                    <ul class="nav-menu">
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="nosotros.html" class="barrers">Nosotros</a></li>
+                        <li><a href="productos.html" class="barrers">Productos</a></li>
+                        <li><a href="galeria.html" class="barrers">Galeria</a></li>
+                        <li><a href="testimonios.html" class="barrers">Testimonios</a></li>
+                        <li><a href="contactos.html" class="barrers">Contacto</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+    <!-- Información de contacto -->
+    <main class="contact-info">
+        <div class="info">
+            <h2>JoyTime</h2>
+            <p>Porque en tu sueño cada detalle cuenta.</p>
+
+            <div class="contact-details">
+                <div class="contact-item">
+                    <span>Dirección:</span>
+                    <p>Chaclacayo - Huascata - MZ K Lote 11</p>
+                </div>
+                <div class="contact-item">
+                    <span>Teléfono:</span>
+                    <p>+51 949369515</p>
+                </div>
+                <div class="contact-item">
+                    <span>Horario:</span>
+                    <p>Lunes a Viernes: 9:00 AM - 9:00 PM<br>Sábados y Domingos: 12:00 PM - 9:00 PM </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Formulario de contacto -->
+        <div class="form-wrapper">
+            <h1>Contactos</h1>
+            <p>Para cualquier consulta o aclaración sobre nuestros servicios o sobre la tienda online, llámanos o envíanos un mensaje,
+                Nuestro equipo estará encantado de ayudarte.</p>
+
+            <form action="#" method="post">
+                <label for="nombre">NOMBRE Y APELLIDOS</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="email">TU CORREO ELECTRÓNICO</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="telefono">TELÉFONO</label>
+                <input type="tel" id="telefono" name="telefono" required>
+
+                <label for="mensaje">TU MENSAJE</label>
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+                <input type="checkbox" id="aceptar" name="aceptar" required>
+                <label for="aceptar">HE LEÍDO Y ACEPTO LA POLÍTICA DE PRIVACIDAD (PROTECCIÓN DE DATOS) Y EL AVISO LEGAL DE ESTA WEB</label>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </main>
+
+    <!-- Pie de página -->
+    <footer class="social-footer" id="Contacto">
+        <div class="copy">
+            <span>© 2023 JoyTime | Política de Privacidad</span>
+        </div>
+        <div class="social-footer-icons">
+            <ul class="menu simple">
+                <li><a href="https://www.facebook.com/profile.php?id=100065341275807"><i class="fa-brands fa-facebook"></i></a></li>
+                <li><a href="https://www.instagram.com/?hl=en"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                <li><a href="https://api.whatsapp.com/send?phone=949369515"><i class="fa-brands fa-whatsapp" aria-hidden="true"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
